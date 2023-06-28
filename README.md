@@ -5,5 +5,5 @@ for compiling:
 ```
 gcc -lpthread -std=gnu99 -lm donut.c -o donut
 ```
-Make sure that you have the library pthreads installed in your gcc compiler, otherwise it will not work.
-more info https://www.sourceware.org/pthreads-win32/
+If compiling with Windows, make sure that you have the library pthreads installed in your gcc compiler, otherwise it will not work.
+more info [POSIX Threads for Win32](https://www.sourceware.org/pthreads-win32/)
